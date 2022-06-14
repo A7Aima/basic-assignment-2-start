@@ -1,1 +1,4 @@
-<p>input-module works!</p>
+<p>input-module works! {{nameVar}}</p>
+<input type="text" class="form" [(ngModel)]="nameVar">
+<!-- <button name="name"></button> -->
+<button [disabled]="onNameCheck()" name="Track Text" (click)="onResetName()"></button>

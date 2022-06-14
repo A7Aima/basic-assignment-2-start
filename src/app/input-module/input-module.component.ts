@@ -12,4 +12,13 @@ export class InputModuleComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  nameVar: string = "";
+
+  onNameCheck(): boolean {
+    return this.nameVar === "";
+  }
+
+  onResetName(): void {
+    this.nameVar = "";
+  }
 }
