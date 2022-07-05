@@ -1,0 +1,44 @@
+textForm {
+    background-color: aqua;
+    color: white;
+}
+
+.buttonStyle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    transform: translate(0%, 100%);
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    background-color: skyblue;
+    border: none;
+    border-radius: 70%;
+
+}
+
+.headerText {
+    font-size: 130%;
+    color: white;
+}
+
+.userNameStyle {
+    color: white;
+}
+
+.inputParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.overflowspan {
+    max-width: 300px;
+    overflow: hidden;
+}
